@@ -1,30 +1,30 @@
-// import { useState } from 'react'
+import { useState } from 'react'
 
-// const params = [
-// 	{
-// 		id: 0,
-// 		name: 'Назначение',
-// 	},
-// 	{
-// 		id: 1,
-// 		name: 'Длина',
-// 	},
-// ]
+const params = [
+	{
+		id: 0,
+		name: 'Назначение',
+	},
+	{
+		id: 1,
+		name: 'Длина',
+	},
+]
 
 function App() {
-	// const [model, setModel] = useState([
-	// 	{
-	// 		paramId: 0,
-	// 		value: 'повседневное',
-	// 	},
-	// 	{
-	// 		paramId: 1,
-	// 		value: 'макси',
-	// 	},
-	// ])
+	const [model, setModel] = useState([
+		{
+			paramId: 0,
+			value: 'повседневное',
+		},
+		{
+			paramId: 1,
+			value: 'макси',
+		},
+	])
 	return (
 		<>
-			{/* <div>
+			<div>
 				{params.map(item => {
 					return (
 						<div key={item.id}>
@@ -55,7 +55,7 @@ function App() {
 						</div>
 					)
 				})}
-			</div> */}
+			</div>
 		</>
 	)
 }
